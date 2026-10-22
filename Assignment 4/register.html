@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="stylesheet" href="css/registerstyle.css">
+    </head>
+    <body>
+
+        <h2 id="register">Register</h2>
+  <form action="#" method="post">
+    <p><label for="name">Name:</label>
+       <input type="text" id="name" name="name" placeholder="Your full name" required></p>
+    <p><label for="email">Email:</label>
+       <input type="email" id="email" name="email" placeholder="you@example.com" required></p>
+    <p><label for="pass">Password:</label>
+       <input type="password" id="pass" name="pass" minlength="8" required></p>
+    <p><label for="dob">Date of birth:</label>
+       <input type="date" id="dob" name="dob"></p>
+    <p><label for="phone">Phone:</label>
+       <input type="tel" id="phone" name="phone" placeholder="10-digit number" pattern="[0-9]{10}"></p>
+    <p>Gender:
+       <input type="radio" name="gender" id="m" value="male"><label for="m">Male</label>
+       <input type="radio" name="gender" id="f" value="female"><label for="f">Female</label>
+       <input type="radio" name="gender" id="o" value="other"><label for="o">Other</label></p>
+    <p>Interests:
+       <input type="checkbox" id="web" name="interests" value="web"><label for="web">Web</label>
+       <input type="checkbox" id="dsa" name="interests" value="dsa"><label for="dsa">DSA</label>
+       <input type="checkbox" id="ai" name="interests" value="ai"><label for="ai">AI</label></p>
+    <p><label for="branch">Branch:</label>
+       <select id="branch" name="branch">
+         <option>BCA</option>
+         <option>B.Tech</option>
+         <option>MCA</option>
+       </select></p>
+    <p><label for="msg">Why do you want to join?</label><br>
+       <textarea id="msg" name="msg" rows="3" cols="30" placeholder="Tell us a little about yourself"></textarea></p>
+    <button type="submit">Register</button>
+  </form>
+        <br>
+    <footer>
+          <nav><a href="events.html">Events</a> | <a href="register.html">Register</a> | <a href="about.html"> About</a>| <a href="contact.html">Contact</a> | <a href="home.html"> Home</a> </nav>
+
+    </footer>
+    </body>
+    </html>
