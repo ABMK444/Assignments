@@ -4,52 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
+    <title>Profile Cards</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-<header class="top-bar">
-    <h3>My Profiles</h3>
-</header>
+    <header class="top-bar">
+        <h3>My Profiles</h3>
+    </header>
 
-<button class="add-button" aria-label="Add profile">+</button>
+    <main class="profile-container">
+        <article class="profile-card profile-card--blue">
+            <img
+                class="avatar"
+                src="Screenshot 2026-09-23 120230.png"
+                alt="Profile photo"
+            >
 
-<div class="profile-container">
-<div class="profile-card blue">
-    <img
-        class="avatar"
-        src="Screenshot 2026-09-23 120230.png"
-        alt="Profile photo"
-    >
-    <h2>Abdullah Khan</h2>
-    <div class="bio">
-    I am a first-year BTech student studying computer science and artificial intelligence.
-    I enjoy learning programming, building simulations, and exploring physics.
-    I am also interested in philosophy, especially questions about knowledge, meaning,
-    and how human beings understand the world.
-    I want to develop my technical skills through projects and practical experimentation.
-    This bio is deliberately long so that the box becomes scrollable.
-</div>
-</div>
-<div class="profile-card dark">
-    <img
-        class="avatar"
-        src="Screenshot 2026-09-23 120230.png"
-        alt="Profile photo"
-    >
-<div class="profile-card">
-    <h2>Abdullah Khan</h2>
-<div class="bio">
-    I am a first-year BTech student studying computer science and artificial intelligence.
-    I enjoy learning programming, building simulations, and exploring physics.
-    I am also interested in philosophy, especially questions about knowledge, meaning,
-    and how human beings understand the world.
-    I want to develop my technical skills through projects and practical experimentation.
-    This bio is deliberately long so that the box becomes scrollable.
-</div>
-</div>
+            <h2>Abdullah Khan</h2>
 
+            <div class="bio">
+                I am a first-year BTech student studying computer science
+                and artificial intelligence. I enjoy programming, physics,
+                and building simulations. I am also interested in philosophy
+                and questions about knowledge, meaning, and human understanding.
+                I want to improve my technical skills through practical projects.
+            </div>
+        </article>
+
+        <article class="profile-card profile-card--dark">
+            <img
+                class="avatar"
+                src="Screenshot 2026-09-23 120230.png"
+                alt="Profile photo"
+            >
+
+            <h2>Abdullah Khan</h2>
+
+            <div class="bio">
+                I am a first-year BTech student studying computer science
+                and artificial intelligence. I enjoy programming, physics,
+                and building simulations. I am also interested in philosophy
+                and questions about knowledge, meaning, and human understanding.
+                I want to improve my technical skills through practical projects.
+            </div>
+        </article>
+    </main>
+
+    <button class="add-button" aria-label="Add profile">+</button>
 </body>
 </html>
-
-
