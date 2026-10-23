@@ -61,3 +61,24 @@ button {
     font-size: 18px;
     color: #475569;
 }
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    flex: 1 1 200px;
+    padding: 25px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #f8fafc;
+}
+
+.card p {
+    line-height: 1.5;
+    color: #475569;
+}
