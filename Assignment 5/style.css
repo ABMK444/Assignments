@@ -61,3 +61,34 @@ body {
     text-align: left;
     line-height: 1.5;
 }
+
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    margin: -30px -30px 25px;
+}
+
+.top-bar h3 {
+    margin: 0;
+}
+
+.add-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 200;
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 50%;
+    background-color: #2563eb;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px #0003;
+}
