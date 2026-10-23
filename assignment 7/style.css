@@ -45,3 +45,35 @@ body {
     gap: 10px;
     padding: 10px;
 }
+
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    grid-template-areas:
+        "head head"
+        "side main"
+        "foot foot";
+
+    gap: 10px;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.head {
+    grid-area: head;
+}
+
+.side {
+    grid-area: side;
+}
+
+.main {
+    grid-area: main;
+}
+
+.foot {
+    grid-area: foot;
+}
