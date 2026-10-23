@@ -77,3 +77,13 @@ body {
 .foot {
     grid-area: foot;
 }
+
+
+.head,
+.side,
+.main,
+.foot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
