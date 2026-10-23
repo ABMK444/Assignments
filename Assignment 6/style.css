@@ -22,22 +22,42 @@ body {
     font-weight: bold;
 }
 
-.nav-right {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.nav-right a {
+.nav-links a {
     color: white;
     text-decoration: none;
 }
 
-.nav-right button {
+button {
     padding: 10px 16px;
-    border: none;
-    border-radius: 5px;
     background-color: #3b82f6;
     color: white;
-    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    padding: 30px;
+    text-align: center;
+    background-color: #dbeafe;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: #475569;
 }
